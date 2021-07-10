@@ -1,0 +1,66 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+body {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: 243, 243, 243;
+    margin: 0;
+    padding: 0;
+    
+}
+.instagram {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.instagram-phone {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.instagram-phone img {
+    height: 50rem;
+}
+.instagream-continue {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    min-height: 34rem;
+    flex-direction: column;
+    align-items: center;
+}
+.grupo {
+    display: flex;
+    background-color: #ffffff;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid lightgray;
+    width: 100%;
+    padding: 1.3rem 0;
+
+}
+.grupo:nth-child(1) {
+    min-height: 3rem;
+}
+.profile.photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profile-photo img {
+    height: 6rem;
+}
