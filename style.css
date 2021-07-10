@@ -33,6 +33,7 @@ body {
 .instagram-phone img {
     height: 40rem;
 }
+
 .instagream-continue {
     display: flex;
     justify-content: space-around;
@@ -40,6 +41,9 @@ body {
     min-height: 34rem;
     flex-direction: column;
     align-items: center;
+}
+.instagram-logo {
+    height: 3rem;
 }
 .grupo {
     display: flex;
@@ -59,11 +63,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 50%;
     overflow: hidden;
 }
 .profile-photo img {
     height: 6rem;
+    border-radius: 50%;
 }
 .instagram-login {
     border-radius: 4px;
